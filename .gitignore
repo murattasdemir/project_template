@@ -67,7 +67,10 @@
 !/**/*.m
 
 # Markdown
-!/**/*.md
+# (Track .md files only in datawork, documentation and report directories
+!/**/datawork/**/*.md
+!/**/documentation/**/*.md
+!/**/report/**/*.md
 
 # Julia
 !/**/*.jl
