@@ -19,6 +19,7 @@ This repo is a **minimalistic** template for empirical economics projects. It us
 │   └── output
 ├── documentation
 └── report
+
 ```
 
 The template has been constructed with a specific workflow in mind, and has the following features/recommendations:
