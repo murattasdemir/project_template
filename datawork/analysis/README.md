@@ -1,11 +1,6 @@
-# Yer tutucu
+# Analysis 
 
-- Bu dosya temelde git tarafından takip edilebilmesi için yer tutucu görevi görmektedir. Bu klasöre dosya eklediğinizde, bu dosyanın içeriğini silerek, her dosyayı açıklayan açıklamalar koymalısınız.
-
-- Bu klasörde sadece analiz için gerekli kodlar yer alır. Birden farklı ortam (Stata, R veya Python gibi) kullanılıyorsa, aşağıdaki alt klasörlerin kullanılması yerinde olur:
-
-        - r
-        - do
-        . py
-
+- Bu klasörde sadece analiz için gerekli kodlar yer alır. Farklı ortamalara (R, Python, Stata vb.) ait kodların bir arada bulunmasında bir mahsur yoktur. 
+- Gerektiğinde analizde kullanılan modül, paket ve kütüphaneleri içermek üzere `lib`, `ado`, `config` gibi alt klasörler oluşturulabilir.
+- Bu klasördeki kodların ürettiği çıktıların tamamı `datawork/output` klasörüne gider.
 
