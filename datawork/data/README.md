@@ -1,5 +1,7 @@
-# Yer tutucu
+# `datawork/data`
 
-- Bu dosya temelde git tarafından takip edilebilmesi için yer tutucu görevi görmektedir. Bu klasöre dosya eklediğinizde, bu dosyanın içeriğini silerek, her dosyayı açıklayan açıklamalar koymalısınız.
+- Veri indirme, işleme, değişken oluşturma vb. kod dosyaları bu klasörde yer alır.
+- Analize hazır veri dosyaları `final` klasöründedir.
+- Geçici ve ara veri dosyaları `inter` klasöründedir.
 
 
