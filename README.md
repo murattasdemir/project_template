@@ -4,7 +4,7 @@ This repo is a **minimalistic** template for empirical economics projects. It us
 
 ```
 ├── code
-├── data **(not tracked)**
+├── data [not tracked]
 │   ├── final
 │   ├── inter
 │   └── raw
@@ -12,11 +12,11 @@ This repo is a **minimalistic** template for empirical economics projects. It us
 │       │   └── doc
 │       └── raw_data-2
 │           └── doc
-├── docs **(not tracked)**
+├── docs [not tracked]
 ├── out
-├── readings **(not tracked)**
+├── readings [not tracked]
 ├── report
-└── temp **(not tracked)**
+└── temp [not tracked]
 
 ```
 
