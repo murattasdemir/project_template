@@ -24,9 +24,13 @@ The template has been constructed with a specific workflow in mind, and has the 
 
 - All code go into `code` and modified/analysis-ready data goes into `data/final` directory.
 - All (if any) intermediate data should be in `data/inter`
+- All raw (original) data go into `data/raw` directory. This folder is not tracked by `git`. After cloning the repo, the user should run `00-data-download.R` or `00-data-download.py` file to download raw data from a *Google Drive* folder. 
 - All output (tables, figures etc.) must go into `out` directory.
-- Ideally each `data/raw/data_x` directory should have a `makefile` that runs the code in that directory and subdirectories. This `makefile` works as a master code file. Another option would be to use a `master` code file. When there are codefiles running different programming languages, `makefile` option is a better way to go.
-- A main `makefile` should be in the root directory. This `makefile` works as a master code file. Another option would be to use a `master` code file. When there are scripts in different programming languages, `makefile` option is a better way to go.
+- The following is some advanced workflow, and **no need to adapt** for beginners:
+
+  - Ideally each `data/raw/data_x` directory should have a `makefile` that runs the code in that directory and subdirectories. This `makefile` works as a master code file. Another option would be to use a `master` code file. When there are code files running different programming languages, `makefile` option is a better way to go.
+  - A main `makefile` should be in the root directory. This `makefile` works as a master code file. Another option would be to use a `master` code file. When there are scripts in different programming languages, `makefile` option is a better way to go.
+  
 - The project directory should **NEVER** be in a cloud sync directory such as Dropbox, Box or Google Drive.
 - If you need to use certain libraries or configuration files to be included in the project folder, then create a `.lib` or `.config` folder in **the project root**. 
 - If you add new directories to the root project folder, make sure that you are not sharing anything that you would not want to share via *Github*. So, check and, if necessary, modify `.gitignore` file.

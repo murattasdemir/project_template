@@ -87,8 +87,8 @@
 # .yml and .yaml files
 # These files sometimes have credentials, so only unignore these lines by removing
 # the "#" below after you checked your .yml/.yaml files for sensitive content
-#!/**/*.yml
-#!/**/*.yaml
+!/**/*.yml
+!/**/*.yaml
 
 #######################
 # Include some additional file formats in any output folder. You might have
@@ -113,7 +113,7 @@ password/
 passwords/
 
 ######################
-# Keep ingnoring all files in local files except for README.md files
+# Keep ingnoring all files in local files except for README.md and some .bib files
 /temp/*
 /readings/*
 /docs/*
@@ -121,3 +121,4 @@ passwords/
 !/temp/README.md
 !/readings/README.md
 !/docs/README.md
+!/readings/*.bib
